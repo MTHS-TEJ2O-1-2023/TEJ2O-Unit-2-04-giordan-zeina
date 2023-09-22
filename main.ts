@@ -5,13 +5,11 @@
  * This program shows the temperature of the microbit
 */
 
-let temperature = input.temperature()
-
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 basic.pause(1000)
 
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.B, function () {
   basic.showString("The temperature is")
   basic.showNumber(input.temperature())
 })
