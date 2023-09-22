@@ -5,6 +5,8 @@
  * This program shows the temperature of the microbit
 */
 
+let temperature = input.temperature()
+
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 basic.pause(1000)
